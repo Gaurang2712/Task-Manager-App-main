@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@800&family=Roboto:wght@700&display=swap');
+
+.dashboard {
+    padding: 20px;
+  }
+  
+  .task-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .priority-high {
+    background-color: #ffc1ca;
+  }
+  
+  .priority-medium {
+    background-color: #fff9c4;
+  }
+  
+  .priority-low {
+    background-color: #e8f5e9;
+  }
+  
+  .task-header {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  .task-text {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .task-input {
+    
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-actions .btn {
+    margin-left: 8px;
+  }
+  
+  .btn-edit {
+    color: #007bff;
+    border: none;
+    background: none;
+  }
+  
+  .btn-delete {
+    color: #dc3545;
+    border: none;
+    background: none;
+  }
+  
+  .input-task,
+  .input-date {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-add {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
